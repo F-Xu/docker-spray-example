@@ -22,7 +22,7 @@ object DockedServer extends App with SimpleRoutingApp {
     get {
       path("hello") {
         complete {
-          "Hello World!"
+          "Hello World! This is the welcome page 2017"
         }
       }
     } ~ // the ~ concatenates two routes: if the first doesn't match, the second is tried
