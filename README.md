@@ -15,4 +15,5 @@ curl -XPOST "http://localhost:9090/counter/c1?amount=1234"
 ```
 
 You can also get a ready image from the [Docker index](https://index.docker.io/u/adamw/spray-example/).
-this is the end!
+
+This is the end!
